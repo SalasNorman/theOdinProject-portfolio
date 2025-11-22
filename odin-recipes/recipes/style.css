@@ -2,7 +2,7 @@ body {
     background-color: gray;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: wheat;
 }
@@ -10,7 +10,4 @@ h1 {
 img {
     display:block;
     margin: 0 auto;
-}
-ul {
-    margin: 20px 50px;
 }
