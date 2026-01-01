@@ -1,80 +1,65 @@
-# Rock Paper Scissors (JavaScript)
+# Rock–Paper–Scissors (JavaScript)
 
-A simple **Rock–Paper–Scissors** game built with vanilla JavaScript.
-The game runs in the browser using `prompt` and `alert` dialogs and plays **5 rounds** between a human player and the computer.
+A fun **Rock–Paper–Scissors** game built with **vanilla JavaScript**. Play against the computer for **5 rounds**, see live scores, and check the history of each round.
 
 This project was created as a **project exercise from [The Odin Project](https://www.theodinproject.com/)** to practice JavaScript fundamentals.
-
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-rock-paper-scissor/
-├── index.html   # Open this file in a browser to run the game
+rock-paper-scissors/
+├── index.html   # Main HTML file
+├── style.css    # Game styles
 ├── script.js    # Game logic
 └── README.md    # Project documentation
 ```
 
 ---
 
-## 🎮 How to Play
+## How to Play
 
-1. Open `index.html` in any modern web browser.
-2. A prompt will ask you to choose one of the following:
-
-   * `ROCK`
-   * `PAPER`
-   * `SCISSORS`
-3. The computer randomly selects its choice.
-4. The winner of each round is shown using an alert.
-5. The game runs for **5 rounds**.
-6. After 5 rounds, the final score is displayed and the overall winner is announced.
+1. Open `index.html` in a browser.
+2. Click **ROCK**, **PAPER**, or **SCISSORS** to make your choice.
+3. The computer picks randomly.
+4. The round result is shown, and scores are updated live.
+5. After 5 rounds, the final winner is displayed.
+6. Click **Play Again** to restart the game.
 
 ---
 
-## ⚙️ Game Rules
+## Game Rules
 
-* **Rock beats Scissors**
-* **Paper beats Rock**
-* **Scissors beats Paper**
-* Same choices result in a **tie**
-
----
-
-## 🧠 How It Works
-
-* The computer’s choice is generated randomly using `Math.random()`.
-* The human player inputs their choice using `prompt()`.
-* Each round compares the two choices and updates the score.
-* Scores are tracked using:
-
-  ```js
-  let humanScore = 0;
-  let computerScore = 0;
-  ```
-* After 5 rounds, the final winner is determined.
+* Rock beats Scissors
+* Paper beats Rock
+* Scissors beats Paper
+* Same choices result in a draw
 
 ---
 
-## 🚀 Technologies Used
+## How It Works
+
+* Player choose.
+* The computer chooses randomly.
+* Each round updates the **player and computer scores**.
+* A history list shows the results of each round, e.g., `WIN: ROCK vs SCISSORS`.
+* After 5 rounds, the game shows the overall winner.
+
+---
+
+## Theme & Styling
+
+* Retro arcade style
+
+---
+
+## Technologies Used
 
 * HTML
+* CSS
 * JavaScript (Vanilla)
 
 ---
 
-## 📌 Notes
-
-* Input is case-insensitive (converted to uppercase internally).
-* The game uses browser dialogs (`alert` and `prompt`), so it must be run in a browser.
-* No external libraries or frameworks are required.
-
----
-
-## 🛠️ Possible Improvements
-
-* Replace `prompt` and `alert` with buttons and UI elements
-* Add input validation for invalid choices
-* Display live scores on the page
-* Allow replay without refreshing the page
+## Possible Improvements
+* Add hover effect
