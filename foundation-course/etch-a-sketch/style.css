@@ -1,8 +1,7 @@
 .box {
-  background-color: rgb(255, 255, 255);
-  width: 20px;
-  height: 20px;
+  background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 79%);
+  box-sizing: border-box;
 }
 
 h1 {
@@ -13,22 +12,20 @@ h1 {
 .container {
   display: flex;
   align-content: flex-start;
-  background-color: rgb(255, 30, 244);
-  width: 352px;
-  height: 352px;
-  margin: 100px auto;
   flex-wrap: wrap;
-  border: 5px solid black;
+  width: 350px;
+  height: 350px;
+  margin: 100px auto;
+  border: 10px ridge hsl(0, 0%, 0%);
+  border-radius: 5px;
 }
 
-
-.body {
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
   background-color: dodgerblue;
-  width: 500px;
-  margin: 100px auto;
 }
 
 form {
@@ -38,12 +35,6 @@ form {
   background-color: rgb(12, 115, 21);
 }
 
-body {
-  height: 100vh;
-  /* overflow: hidden; */
-}
-
 .highlight {
-    background-color: green;
+  background-color: hsl(0, 0%, 0%);
 }
-

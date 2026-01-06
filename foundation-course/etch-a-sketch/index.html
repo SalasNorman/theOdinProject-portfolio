@@ -8,13 +8,27 @@
   </head>
   <body>
     <h1>Etch-A-Skecth</h1>
-    <div class="body">
-      <form action="">
-        <label for="grid-size">Grid Size: <output id="grid-size-display"></output></label><br>
-        <input type="range" id="grid-size" min="16" max="100" value="16">
-      </form>
+    <form action="">
+      <label for="grid-size">Grid Size:
+        <output id="grid-size-display"></output>
+      </label>
+      <br/>
+      <input type="range" id="grid-size" min="16" max="100" value="16" />
+      <label for="color-picker">Pick a COLOR:</label>
+      <input type="color" id="color-picker">
+
+      <label for="brush">Brush:</label>
+      <input type="button" id="brush-mode" value="OFF">
+
+      <label for="eraser">Eraser:</label>
+      <input type="button" id="eraser-mode" value="ON">
+
+      <label for="clear">Clear canvas:</label>
+      <input type="button" id="clear-canvas" value="Clear">
+
+      <label id="test">test</label>
+    </form>
     <div class="container"></div>
-    </div>
     <script src="./script.js"></script>
   </body>
 </html>
