@@ -12,22 +12,22 @@
       <label for="grid-size">Grid Size:
         <output id="grid-size-display"></output>
       </label>
-      <br/>
       <input type="range" id="grid-size" min="16" max="100" value="16" />
-      <label for="color-picker">Pick a COLOR:</label>
-      <input type="color" id="color-picker">
+      <label for="color-picker">Brush Color:</label>
+      <input type="color" id="color-picker" />
 
-      <label for="brush">Brush:</label>
-      <input type="button" id="brush-mode" value="OFF">
+      <div class="mode">
+        <label for="brush">Brush:</label>
+        <input type="button" id="brush-mode" value="OFF" />
+        <label for="eraser">Eraser:</label>
+        <input type="button" id="eraser-mode" value="ON" />
+      </div>
 
-      <label for="eraser">Eraser:</label>
-      <input type="button" id="eraser-mode" value="ON">
-
-      <label for="clear">Clear canvas:</label>
-      <input type="button" id="clear-canvas" value="Clear">
+      <label for="clear">Clear Canvas:</label>
+      <input type="button" id="clear-canvas" value="Clear" />
 
       <label for="device-type">Device:</label>
-      <input type="button" id="device-type" value="Desktop">
+      <input type="button" id="device-type" value="Desktop" />
     </form>
     <div class="container"></div>
     <script src="./script.js"></script>
