@@ -13,8 +13,8 @@ h1 {
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
-  width: 350px;
-  height: 350px;
+  width: 340px;
+  height: 340px;
   margin: 100px auto;
   border: 10px ridge hsl(0, 0%, 0%);
   border-radius: 5px;
@@ -32,7 +32,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(12, 115, 21);
+  background-color: rgb(223, 223, 223);
 }
 
 .highlight {

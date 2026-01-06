@@ -30,7 +30,7 @@ function generateGrid() {
   let gridSize = defaultGridSize * defaultGridSize;
   for (let i = 1; i <= gridSize; i++) {
     const grid = document.createElement("div");
-    let hw = 350 / defaultGridSize;
+    let hw = 340 / defaultGridSize;
     grid.classList.add("box");
     grid.style.height = `${hw}px`;
     grid.style.width = `${hw}px`;
@@ -72,11 +72,6 @@ function toggle(btn1, btn2) {
 
 clearCanvas.addEventListener("click", (event) => {
   resetGrid();
-});
-
-test.addEventListener("click", (event) => {
-  console.log(brushMode.value);
-  console.log(colorPick.value);
 });
 
 displayGridSize();
