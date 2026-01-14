@@ -1,20 +1,25 @@
 #container {
   display: flex;
   flex-flow: column wrap;
-  width: 150px;
+  box-sizing: border-box;
+  width: 105px;
   height: 200px;
   background-color: aquamarine;
   gap: 2px;
 }
 
 #input {
+  box-sizing: border-box;
   background-color: rgb(214, 214, 214);
-  width: 100px;
+  width: 105px;
   height: 20px;
+  text-align: end;
+  padding-right: 4px;
 }
 
 .row {
   display: flex;
+  box-sizing: border-box;
   background-color: burlywood;
   height: 20px;
   gap: 8px;
@@ -24,6 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
   background-color: blueviolet;
   width: 20px;
 
