@@ -4,7 +4,8 @@ const container = document.querySelector("#container");
 container.addEventListener("click", (event) => {
   if (
     event.target.id !== "container" &&
-    event.target.className.includes("row") === false
+    event.target.className.includes("row") === false &&
+    event.target.id !== "input"
   ) {
     currentInput = event.target.textContent;
     checkCurrentInput(currentInput);
