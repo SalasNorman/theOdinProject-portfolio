@@ -8,7 +8,7 @@ This repository contains a list of projects I’ve built and completed while fol
   Projects completed during The Odin Project Foundations path.  
   These focus on core web development skills, including HTML, CSS, JavaScript, and basic tooling.
 
-- **Full Stack Ruby on Rails**  (On-going)
+- **Full Stack Ruby on Rails** (On-going)  
   Projects built as part of the Full Stack Ruby on Rails path.  
   These include full-stack applications created from scratch using Ruby on Rails, with an emphasis on responsive design and real-world workflows.
 
