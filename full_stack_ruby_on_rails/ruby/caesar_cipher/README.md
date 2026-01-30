@@ -28,6 +28,10 @@ The Caesar cipher is a type of substitution cipher where each letter in the plai
 
 The script includes built-in examples that will print encrypted outputs.
 
+## Live Demo
+
+Try the Caesar Cipher online: [Paiza.io Demo](https://paiza.io/projects/YJrAmE80O29pcilDIchu7w)
+
 ## Examples
 
 ```ruby
