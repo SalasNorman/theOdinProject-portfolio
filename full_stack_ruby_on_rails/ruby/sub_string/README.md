@@ -1,3 +1,5 @@
+**NOTE:** I only use AI for README and commit. That what AI use for.
+
 # Substrings
 
 A Ruby implementation of a substring counter that finds and counts occurrences of words from a dictionary within a given string.
