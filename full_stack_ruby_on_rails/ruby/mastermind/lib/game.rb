@@ -5,8 +5,7 @@ class Game
   attr_accessor :player, :rule, :turn, :secret_code
   def initialize
     @turn = 1
-    # @secret_code = Array(1..6).sample(4)
-    @secret_code = [3,1,2,4]
+    @secret_code = Array(1..6).sample(4)
     @player = Player.new
     @rule = Rule.new
   end
