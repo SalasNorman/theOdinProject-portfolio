@@ -72,6 +72,7 @@ Feedback: ++++
 ```
 
 The game validates that your input is:
+
 - Exactly 4 digits
 - Contains only numbers (no letters)
 - Contains only numbers between 1 and 6
